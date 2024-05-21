@@ -1,0 +1,388 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:slnt,wght@-10..0,100..900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+.head-sec {
+    background-image: url(B9A1-New-Year-New-Mission-main/resources/Banner\ Image.png);
+    width: 1300px;
+    height: 600px;
+    background-repeat: no-repeat;
+    margin: auto;
+    text-align: center;
+    padding-top: 150px;
+    border-radius: 15px;
+
+}
+
+
+
+.head-heading {
+    color: white;
+    font-family: Merriweather;
+    font-size: 32px;
+    font-weight: 400;
+    letter-spacing: 0%;
+}
+
+.head-greet {
+    color: white;
+    font-family: "Merriweather", serif;
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 95px;
+    letter-spacing: 0%;
+
+}
+
+.discount-section {
+    text-align: center;
+    font-family: "Inter", sans-serif;
+
+}
+
+.discount-section>h1 {
+    color: red;
+    font-size: 88px;
+    font-weight: 700;
+
+}
+
+.discount-section>h3 {
+    color: red;
+    font-size: 24px;
+    font-weight: 500;
+
+}
+
+.discount-section>h2 {
+    color: black;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.party-secction {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-image: url(B9A1-New-Year-New-Mission-main/resources/Vectorrr.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 600px;
+    border-radius: 20px;
+    margin-top: 100px;
+
+}
+
+.party-h {
+    width: 642px;
+    height: 176px;
+    font-size: 64px;
+    letter-spacing: 7px;
+    line-height: 88px;
+    color: #ffffff;
+    font-weight: 900;
+    font-family: "Merriweather";
+
+}
+
+.party-p {
+    opacity: 0.800;
+    width: 697px;
+    height: 60px;
+    font-size: 18px;
+    line-height: 30px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Inter";
+}
+
+.party-secction>button {
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Inter";
+    text-align: center;
+}
+
+.invite-sec {
+
+    margin-top: 100px;
+    background-image: linear-gradient(180deg, rgb(252, 209, 209) 0%, rgba(255, 0, 0, 0) 100%);
+    height: 480px;
+    align-items: center;
+    text-align: center;
+    border-radius: 12px;
+
+}
+
+
+.invite-sec>div>h1,
+h2,
+h3 {
+    font-size: 32px;
+    line-height: 56px;
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+    font-family: "Inter";
+    text-align: center;
+}
+
+.common-span {
+    color: red;
+}
+
+.invite-sec>div>button {
+    width: 167px;
+    height: 56px;
+    border-radius: 8px;
+    background-color: #ff0000;
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Inter";
+    text-align: center
+}
+
+.invite-sec>div {
+    padding-top: 100px;
+
+}
+
+
+.offer-sec {
+    display: flex;
+    margin-top: 100px;
+    justify-content: space-between;
+    padding: 50px;
+}
+
+
+
+.offer-p {
+    font-size: 24px;
+    color: #ff0000;
+    font-weight: 500;
+    font-family: "Inter";
+}
+
+.offer-soon {
+    font-size: 48px;
+    color: #070211;
+    font-weight: 900;
+    font-family: "Merriweather";
+}
+
+.offe-p {
+    font-size: 20px;
+    color: #070211;
+    font-weight: 400;
+    font-family: "Inter";
+    width: 383px;
+    height: 124px;
+    line-height: 32px;
+}
+
+.image {
+    border-radius: 250px;
+    border: 15px solid #ff0000;
+    background-color: #000000;
+
+
+}
+
+.year {
+    font-size: 48px;
+    color: #ff0000;
+    font-weight: 700;
+    font-family: "Inter";
+}
+
+.year-p {
+
+    width: 276px;
+    height: 96px;
+    font-size: 20px;
+    line-height: 32px;
+    color: #070211;
+    font-weight: 400;
+    font-family: "Inter";
+}
+
+.functional-section {
+    text-align: center;
+    margin-top: 150px;
+}
+
+.function {
+    font-size: 24px;
+    color: black;
+    font-weight: 500;
+    font-family: "Inter";
+
+}
+
+.functional-sale {
+    font-size: 72px;
+    color: black;
+    font-weight: 900;
+    font-family: "Merriweather";
+    margin-top: 0;
+    margin-bottom: 0;
+
+}
+
+.functional-sale>span {
+    color: #ff0000;
+}
+
+.function-p {
+    font-size: 20px;
+    font-weight: 500;
+    font-family: "Inter";
+    color: #5f5e5e;
+    ;
+}
+
+.gift-section {
+    margin-top: 100px;
+    margin-left: 20px;
+
+
+}
+
+.gift-sec>h1 {
+    font-size: 24px;
+    color: #ff0000;
+    font-weight: 500;
+    font-family: "Inter";
+}
+
+.gift-sec>h4 {
+    font-size: 48px;
+    color: #070211;
+    font-weight: 900;
+    font-family: "Merriweather";
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.gift-sec>p {
+    font-size: 20px;
+    color: #070211;
+    font-weight: 400;
+    font-family: "Inter";
+}
+
+.sub-sec {
+    margin-top: 150px;
+    text-align: center;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+    width: 1320px;
+    height: 616px;
+
+
+}
+
+.sub {
+    font-size: 48px;
+    color: #070211;
+    font-weight: 900;
+    font-family: "Merriweather";
+
+}
+
+.sub-p {
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.sub-sec>div {
+    padding-top: 90px;
+}
+
+.sub-sec input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.sub-sec button {
+    padding: 10px 20px;
+    background-color: #ff3b3b;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+
+}
+
+footer {
+    margin-top: 150px;
+    position: absolute;
+    width: 1330px;
+    height: 609px;
+    background-color: #070211;
+    border-radius: 15px;
+    
+}
+
+.flex{
+    display: flex;
+    justify-content:space-between;
+    padding-top: 120px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+footer p {
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    
+}
+
+
+
+.number{
+    display: flex;
+}
+.number img {
+    padding-right: 10px;
+  
+}
+.web{
+    display: flex;
+}
+.web img {
+    padding-right: 10px;
+}
+.social-midea{
+    text-align: center;
+    margin-top: 50px;
+    border-top: 1px solid white ;
+    border-bottom: 1px solid white;
+   
+    
+
+}
+.social-midea img{
+    width: 30px;
+    margin: 0 10px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
+   
+}
+.Unsubscribe{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
